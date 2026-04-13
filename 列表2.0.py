@@ -63,3 +63,47 @@ for i in reversed(range(len(items))):
         del items[i]
 print(items)
 """
+
+"""
+items = ['Python', 'Java', 'Java', 'C++', 'Kotlin', 'Python']
+print(items.index('Python'))     # 0
+# 从索引位置1开始查找'Python'
+print(items.index('Python', 1))  # 5
+print(items.count('Python'))     # 2
+print(items.count('Kotlin'))     # 1
+print(items.count('Swfit'))      # 0
+"""
+
+'''
+sort默认按照从小到大排序
+'''
+"""
+items = ['Python', 'Java', 'C++', 'Kotlin', 'Swift']
+items.sort()
+print(items)  # ['C++', 'Java', 'Kotlin', 'Python', 'Swift']
+items.reverse()
+print(items)  # ['Swift', 'Python', 'Kotlin', 'Java', 'C++']
+"""
+
+"""
+scores = [[95, 83, 92], [80, 75, 82], [92, 97, 90], [80, 78, 69], [65, 66, 89]]
+print(scores[0])
+print(scores[0][1])
+"""
+
+"""
+scores = []
+for _ in range(5):
+    temp = []
+    for _ in range(3):
+        score = int(input("请输入成绩："))
+        temp.append(score)
+    scores.append((temp))
+print(scores)
+"""
+
+"""
+import random
+scores = [[random.randrange(60,101)for _ in range(3)]for _ in range(5)]
+print(scores)
+"""
