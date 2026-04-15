@@ -54,7 +54,8 @@ for _ in items:
 print(items)
 """
 """
-正确的删除应该用reversed倒序删除
+正确的删除应该用reversed倒序删除,这里reversed是python内置函数，作用是倒着读取，并未改变列表如list = [1,2,3],读取出来是[3,2,1]
+但是列表仍是[1,2,3];reverse则是list的方法，会修改原列表，变成[3,2,1]
 """
 """
 items = ['Python', 'Java', 'C++','Python','C']
