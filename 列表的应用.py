@@ -53,10 +53,7 @@ print(f'\033[034m{blue_ball:0>2d}\033[0m')
 
 
 """
-双色球随机选号程序
-
-Author: 骆昊
-Version: 1.2
+双色球随机选号程序，增加生成几注号码
 """
 """
 import random
