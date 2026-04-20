@@ -65,7 +65,7 @@ for i in reversed(range(len(items))):
 print(items)
 """
 
-"""
+'''
 items = ['Python', 'Java', 'Java', 'C++', 'Kotlin', 'Python']
 print(items.index('Python'))     # 0
 # 从索引位置1开始查找'Python'
@@ -73,7 +73,7 @@ print(items.index('Python', 1))  # 5
 print(items.count('Python'))     # 2
 print(items.count('Kotlin'))     # 1
 print(items.count('Swfit'))      # 0
-"""
+'''
 
 '''
 sort默认按照从小到大排序
