@@ -10,7 +10,7 @@ print(languages)  # ['Python', 'SQL', 'Java', 'C++', 'JavaScript']
 """
 
 """
-remove可以删除指定元素；pop默认删除列表中的最后一个元素，也可以给一个位置删除指定位置的元素；clear则是清空列表
+remove可以删除指定元素；pop默认删除列表中的最后一个元素，也可以给一个位置删除指定位置的元素，pop返回的是删除的那个值而不是剩下的列表；clear则是清空列表
 """
 """
 languages = ['Python', 'SQL', 'Java', 'C++', 'JavaScript']
